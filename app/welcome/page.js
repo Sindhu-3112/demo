@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { FiLogOut } from 'react-icons/fi';
 
 export default function WelcomePage() {
   const router = useRouter();
@@ -34,7 +35,13 @@ export default function WelcomePage() {
       </p>
     </div>
       
-      <button onClick={handleLogout}>Logout</button>
+     <button
+  onClick={handleLogout}
+  className="flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded"
+>
+  <FiLogOut className="h-5 w-5" />
+  Logout
+</button>
     </div>
   );
 }
