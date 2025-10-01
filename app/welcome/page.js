@@ -25,7 +25,7 @@ export default function WelcomePage() {
 
   return (
     <div style={{ padding: '50px', textAlign: 'center' }}>
-      <h1>🎉 Welcome!</h1>
+      <h1>Welcome To the Page</h1>
       <p>You are logged in.</p>
 
        <div className="bg-gray-100 p-4 rounded mb-6 border-l-4 border-blue-400">
