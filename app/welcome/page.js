@@ -26,6 +26,14 @@ export default function WelcomePage() {
     <div style={{ padding: '50px', textAlign: 'center' }}>
       <h1>🎉 Welcome!</h1>
       <p>You are logged in.</p>
+
+       <div className="bg-gray-100 p-4 rounded mb-6 border-l-4 border-blue-400">
+      <p className="italic text-gray-600">
+        “The future belongs to those who believe in the beauty of their dreams.”<br />
+        <span className="text-sm text-gray-500">– Eleanor Roosevelt</span>
+      </p>
+    </div>
+      
       <button onClick={handleLogout}>Logout</button>
     </div>
   );
